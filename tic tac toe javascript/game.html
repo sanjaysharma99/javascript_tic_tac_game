@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe Game</title>
+        <link href="game.css" type="text/css" rel="stylesheet"/>
+        <script src="game.js" defer></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="btndiv">
+                <button id="one" onclick="b1()"></button>
+                <button id="two" onclick="b2()"></button>
+                <button id="three" onclick="b3()"></button>
+                <button id="four" onclick="b4()"></button>
+                <button id="five" onclick="b5()"></button>
+                <button id="six" onclick="b6()"></button>
+                <button id="seven" onclick="b7()"></button>
+                <button id="eight" onclick="b8()"></button>
+                <button id="nine" onclick="b9()"></button>
+            </div>
+            <div class="scorediv">
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div id="winbox">
+            <img src="close.png" id="close" onclick="f1()"/>
+            <img src="winner_cup.jpg" class="cup" alt="winner"/>
+            <h2>Congratulations</h2>
+            <p id="winname"></p>
+        </div>
+    </body>
+</html>
